@@ -13,9 +13,12 @@ URL		: https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan
 Description	: API untuk mengambil seluruh data daftar pengaduan barang dari data API pengaduan barang
 
 Request Form Data:
-Key	Description 
--	-
--	-
+| Key  | Description|
+|-------|------|
+| John  | 25   |
+| Sarah | 30   |
+| Mark  | 28   |
+
 
 JSON Parameters: 
 {
