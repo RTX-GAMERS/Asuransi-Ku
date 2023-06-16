@@ -8,9 +8,9 @@ Anggota Kelompok:
 
 Sentiment analysis
 
-HTTP Method    : GET  
-URL            : https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan  
-Description    : API untuk mengambil seluruh data daftar pengaduan barang dari data API pengaduan barang  
+HTTP Method    tab.: GET  
+URL            tab.: https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan  
+Description    tab.: API untuk mengambil seluruh data daftar pengaduan barang dari data API pengaduan barang  
 
 Request Form Data:
 | Key  | Description|
