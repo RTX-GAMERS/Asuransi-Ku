@@ -15,13 +15,11 @@ Description	: API untuk mengambil seluruh data daftar pengaduan barang dari data
 Request Form Data:
 | Key  | Description|
 |-------|------|
-| John  | 25   |
-| Sarah | 30   |
-| Mark  | 28   |
-
+| -  | -   |
+| - | -   |
 
 JSON Parameters: 
-{
+\```{
     "data": {
         "current_page": 1,
         "data": [
@@ -100,6 +98,7 @@ JSON Parameters:
         "total": 5
     }
 }
+\```
 
 HTTP Method	: POST
 URL		: https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan?id_transaksi&nama_pelanggan&jenis_pengaduan&tanggal_pesanan&created_at&updated_at 
