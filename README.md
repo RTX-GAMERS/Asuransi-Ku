@@ -19,7 +19,8 @@ Request Form Data:
 | - | -   |
 
 JSON Parameters: 
-\```{
+\```json
+{
     "data": {
         "current_page": 1,
         "data": [
