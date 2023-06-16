@@ -1,0 +1,196 @@
+/* Gaya dasar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  display: flex;
+  color: #fff;
+  padding: 5px;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+nav ul li a:hover {
+  color: #00E4ED;
+}
+
+section {
+  padding: 50px;
+}
+
+.input-aduan{
+  padding-left: 100px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+}
+
+.banner {
+  text-align: center;
+}
+
+.daftar {
+  text-align: center;
+  margin: 50px;
+}
+
+.daftar p {
+  text-align: center;
+  font-size: 17px;
+}
+
+
+.aduan h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+.aduan p{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.banner h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.feature-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 16px;
+}
+
+.fitur-cari {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.fitur-cari input[type="text"] {
+  width: 300px; 
+  padding: 10px;
+  border: 2px;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px 1px #ddd;
+}
+
+.fitur-cari button {
+  background-color: #00E4ED;
+  box-shadow: 0 2px 3px 1px #ddd;
+  border: 2px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+table{
+  font-size: 14px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zebra-table {
+  overflow-y: auto;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: auto;
+  }
+  
+  .zebra-table th{
+    background:#00E4ED;
+    color: black;
+    border: 1px solid #eee;
+  }
+  
+  .zebra-table td{
+  padding:10px 7px;
+  text-align: left;
+  margin:0;
+  border: 1px solid #eee;
+  }
+  
+  .zebra-table tbody tr:nth-child(odd) {
+  background:#eee;
+  }
+
+  span.required {
+    color: red;
+  }
+
+  .hw {
+    width: 500px;
+    height: 300px;
+}
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
