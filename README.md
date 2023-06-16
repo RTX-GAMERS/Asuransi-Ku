@@ -115,7 +115,8 @@ Request Form Data:
 | created_at       | Tanggal data dibuat                                          |
 | updated_at       | Tanggal data dilakukan pembaruan                             |
 
-JSON Parameters: 
+JSON Parameters:
+```json
 {
     "data": {
         "current_page": 1,
@@ -166,6 +167,7 @@ JSON Parameters:
                 "updated_at": "2023-06-09T11:56:14.000000Z"
             }
 }
+```
 
 HTTP Method	: GET
 URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/ 
@@ -177,7 +179,8 @@ Request Form Data:
 | - | - |
 | - | - |
 
-JSON Parameters: 
+JSON Parameters:
+```json
 {
     "success": true,
     "message": "Data Asuransi Berhasil Diambil",
@@ -354,6 +357,7 @@ JSON Parameters:
         }
     ]
 }
+```
 
 HTTP Method	: POST
 URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan 
@@ -377,7 +381,8 @@ Request Form Data:
 | biaya_asuransi  | Biaya yang perlu dibayarkan seputar polis asuransi           |
 | jenis_pengaduan | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
 
-JSON Parameters: 
+JSON Parameters:
+```json
 {
     "success": true,
     "message": "Data Asuransi Berhasil Dimasukkan",
@@ -399,6 +404,7 @@ JSON Parameters:
         "jenis_pengaduan": "Layar Pecah"
     }
 }
+```
 
 HTTP Method	: PUT
 URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/3?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan 
@@ -422,7 +428,8 @@ Request Form Data:
 | biaya_asuransi | Biaya yang perlu dibayarkan seputar polis asuransi           |
 | jenis_pengaduan | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
 
-JSON Parameters: 
+JSON Parameters:
+```json
 {
     "success": true,
     "message": "Data Asuransi Berhasil Diubah",
@@ -444,6 +451,7 @@ JSON Parameters:
         "jenis_pengaduan": "Barangnya tidak sesuai"
     }    
 }
+```
 
 HTTP Method	: PATCH
 URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/{id}?nama=&no_resi=&harga=&detail_produk=&biaya_asuransi=&jenis_pengaduan= 
@@ -459,7 +467,8 @@ Request Form Data:
 | biaya_asuransi  | Biaya yang perlu dibayarkan seputar polis asuransi           |
 | jenis_pengaduan | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
 
-JSON Parameters: 
+JSON Parameters:
+```json
 {
     "success": true,
     "message": "Data Asuransi Berhasil Diedit",
@@ -481,6 +490,7 @@ JSON Parameters:
         "jenis_pengaduan": "Barangnya cacat produksi"
     }    
 }
+```
 
 HTTP Method	: DELETE
 URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/{id} 
@@ -492,9 +502,10 @@ Request Form Data:
 | - | - |
 | - | - |
 
-JSON Parameters: 
+JSON Parameters:
+```json
 {
     "success": true,
     "message": "Data Asuransi Berhasil Dihapus"
 }
-
+```
