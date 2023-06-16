@@ -15,8 +15,8 @@ Description	: API untuk mengambil seluruh data daftar pengaduan barang dari data
 Request Form Data:
 | Key  | Description|
 |-------|------|
-| -  | -   |
-| - | -   |
+| - | - |
+| - | - |
 
 JSON Parameters: 
 \'''json
@@ -106,16 +106,14 @@ URL		: https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan?id_t
 Description	: API yang digunakan untuk melakukan post data pengaduan barang 
 
 Request Form Data:
-Key 	Description 
-id_transaksi	ID dari pengguna yang melakukan transaksi
-nama_pelanggan	Nama pelanggan yang melakukan transaksi
-jenis_pengaduan	Jenis pengaduan yang dialami oleh pengguna terkait dengan barang
-tanggal_pesanan	Tanggal dibuatnya pesanan barang
-created_at	Tanggal data dibuat
-updated_at	Tanggal data dilakukan pembaruan
-
-
-
+| Key              | Description                                                 |
+|------------------|-------------------------------------------------------------|
+| id_transaksi     | ID dari pengguna yang melakukan transaksi                    |
+| nama_pelanggan   | Nama pelanggan yang melakukan transaksi                      |
+| jenis_pengaduan  | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
+| tanggal_pesanan  | Tanggal dibuatnya pesanan barang                             |
+| created_at       | Tanggal data dibuat                                          |
+| updated_at       | Tanggal data dilakukan pembaruan                             |
 
 JSON Parameters: 
 {
@@ -174,9 +172,10 @@ URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/
 Description	: API untuk mengambil semua data asuransi
 
 Request Form Data: 
-Key 	Description 
--	-
--	-
+| Key  | Description|
+|-------|------|
+| - | - |
+| - | - |
 
 JSON Parameters: 
 {
@@ -361,21 +360,22 @@ URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/?nama=&alamat=&invoi
 Description	: API yang digunakan untuk melakukan post data asuransi
 
 Request Form Data:
-Key	Description 
-nama	Nama pengguna yang membuat klaim asuransi
-alamat	Alamat pengguna yang membuat klaim asuransi 
-invoice	Nomor tagihan barang yang dibeli pengguna
-no_telp	Nomor telepon pengguna yang membuat klaim asuransi
-no_resi	Nomor yang diberikan oleh jasa ekspedisi atas paket barang yang dikirimkan
-harga	Harga barang yang dibeli oleh pengguna
-detail_produk	Detail barang yang dibeli oleh pengguna
-kurir	Jasa ekspedisi yang mengirimkan barang ke pengguna
-metode_bayar	Metode yang dipilih pengguna untuk melakukan pembayaran
-tanggal_pesan	Tanggal pesanan dibuat
-tanggal_bayar	Tanggal pesanan dibayar
-status_barang	Status barang yang dibeli oleh pengguna
-biaya_asuransi	Biaya yang perlu dibayarkan seputar polis asuransi
-jenis_pengaduan	Jenis pengaduan yang dialami oleh pengguna terkait dengan barang
+| Key             | Description                                                 |
+|-----------------|-------------------------------------------------------------|
+| nama            | Nama pengguna yang membuat klaim asuransi                    |
+| alamat          | Alamat pengguna yang membuat klaim asuransi                  |
+| invoice         | Nomor tagihan barang yang dibeli pengguna                   |
+| no_telp         | Nomor telepon pengguna yang membuat klaim asuransi           |
+| no_resi         | Nomor yang diberikan oleh jasa ekspedisi atas paket barang yang dikirimkan |
+| harga           | Harga barang yang dibeli oleh pengguna                       |
+| detail_produk   | Detail barang yang dibeli oleh pengguna                      |
+| kurir           | Jasa ekspedisi yang mengirimkan barang ke pengguna           |
+| metode_bayar    | Metode yang dipilih pengguna untuk melakukan pembayaran      |
+| tanggal_pesan   | Tanggal pesanan dibuat                                      |
+| tanggal_bayar   | Tanggal pesanan dibayar                                     |
+| status_barang   | Status barang yang dibeli oleh pengguna                      |
+| biaya_asuransi  | Biaya yang perlu dibayarkan seputar polis asuransi           |
+| jenis_pengaduan | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
 
 JSON Parameters: 
 {
@@ -400,35 +400,27 @@ JSON Parameters:
     }
 }
 
-
-
-
-
-
-
-
 HTTP Method	: PUT
 URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/3?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan 
 Description	: API digunakan untuk mengubah salah satu data pada data asuransi berdasarkan id dengan menggunakan semua key
 
 Request Form Data:
-Key	Description 
-nama	Nama pengguna yang membuat klaim asuransi
-alamat	Alamat pengguna yang membuat klaim asuransi 
-invoice	Nomor tagihan barang yang dibeli pengguna
-no_telp	Nomor telepon pengguna yang membuat klaim asuransi
-no_resi	Nomor yang diberikan oleh jasa ekspedisi atas paket barang yang dikirimkan
-harga	Harga barang yang dibeli oleh pengguna
-detail_produk	Detail barang yang dibeli oleh pengguna
-kurir	Jasa ekspedisi yang mengirimkan barang ke pengguna
-metode_bayar	Metode yang dipilih pengguna untuk melakukan pembayaran
-tanggal_pesan	Tanggal pesanan dibuat
-tanggal_bayar	Tanggal pesanan dibayar
-status_barang	Status barang yang dibeli oleh pengguna
-biaya_asuransi	Biaya yang perlu dibayarkan seputar polis asuransi
-jenis_pengaduan	Jenis pengaduan yang dialami oleh pengguna terkait dengan barang
-
-
+| Key            | Description                                                 |
+|----------------|-------------------------------------------------------------|
+| nama           | Nama pengguna yang membuat klaim asuransi                    |
+| alamat         | Alamat pengguna yang membuat klaim asuransi                  |
+| invoice        | Nomor tagihan barang yang dibeli pengguna                   |
+| no_telp        | Nomor telepon pengguna yang membuat klaim asuransi           |
+| no_resi        | Nomor yang diberikan oleh jasa ekspedisi atas paket barang yang dikirimkan |
+| harga          | Harga barang yang dibeli oleh pengguna                       |
+| detail_produk  | Detail barang yang dibeli oleh pengguna                      |
+| kurir          | Jasa ekspedisi yang mengirimkan barang ke pengguna           |
+| metode_bayar   | Metode yang dipilih pengguna untuk melakukan pembayaran      |
+| tanggal_pesan  | Tanggal pesanan dibuat                                      |
+| tanggal_bayar  | Tanggal pesanan dibayar                                     |
+| status_barang  | Status barang yang dibeli oleh pengguna                      |
+| biaya_asuransi | Biaya yang perlu dibayarkan seputar polis asuransi           |
+| jenis_pengaduan | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
 
 JSON Parameters: 
 {
@@ -458,13 +450,14 @@ URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/{id}?nama=&no_resi=&
 Description	: API digunakan untuk mengubah secara spesifik salah satu data pada data asuransi berdasarkan id hanya menggunakan beberapa key 
 
 Request Form Data:
-Key	Description 
-nama	Nama pengguna yang membuat klaim asuransi
-no_resi	Nomor yang diberikan oleh jasa ekspedisi atas paket barang yang dikirimkan
-harga	Harga barang yang dibeli oleh pengguna
-detail_produk	Detail barang yang dibeli oleh pengguna
-biaya_asuransi	Biaya yang perlu dibayarkan seputar polis asuransi
-jenis_pengaduan	Jenis pengaduan yang dialami oleh pengguna terkait dengan barang
+| Key             | Description                                                 |
+|-----------------|-------------------------------------------------------------|
+| nama            | Nama pengguna yang membuat klaim asuransi                    |
+| no_resi         | Nomor yang diberikan oleh jasa ekspedisi atas paket barang yang dikirimkan |
+| harga           | Harga barang yang dibeli oleh pengguna                       |
+| detail_produk   | Detail barang yang dibeli oleh pengguna                      |
+| biaya_asuransi  | Biaya yang perlu dibayarkan seputar polis asuransi           |
+| jenis_pengaduan | Jenis pengaduan yang dialami oleh pengguna terkait dengan barang |
 
 JSON Parameters: 
 {
@@ -494,9 +487,10 @@ URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/{id}
 Description	: API digunakan untuk menghapus data berdasarkan id dari data asuransi
 
 Request Form Data:
-Key	Description 
--	-
--	-
+| Key  | Description|
+|-------|------|
+| - | - |
+| - | - |
 
 JSON Parameters: 
 {
