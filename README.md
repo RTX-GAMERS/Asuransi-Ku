@@ -8,9 +8,9 @@ Anggota Kelompok:
 
 Sentiment analysis
 
-HTTP Method    tab.: GET  
-URL            tab.: https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan  
-Description    tab.: API untuk mengambil seluruh data daftar pengaduan barang dari data API pengaduan barang  
+HTTP Method    : GET  
+URL            : https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan  
+Description    : API untuk mengambil seluruh data daftar pengaduan barang dari data API pengaduan barang  
 
 Request Form Data:
 | Key  | Description|
@@ -101,9 +101,9 @@ JSON Parameters:
 }
 ```
 
-HTTP Method	: POST
-URL		: https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan?id_transaksi&nama_pelanggan&jenis_pengaduan&tanggal_pesanan&created_at&updated_at 
-Description	: API yang digunakan untuk melakukan post data pengaduan barang 
+HTTP Method    : POST  
+URL            : https://apipengaduanbarangkelompok5.000webhostapp.com/api/ppengaduan?id_transaksi&nama_pelanggan&jenis_pengaduan&tanggal_pesanan&created_at&updated_at  
+Description    : API yang digunakan untuk melakukan post data pengaduan barang  
 
 Request Form Data:
 | Key              | Description                                                 |
@@ -169,9 +169,9 @@ JSON Parameters:
 }
 ```
 
-HTTP Method	: GET
-URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/ 
-Description	: API untuk mengambil semua data asuransi
+HTTP Method    : GET  
+URL            : https://asuransi-ku05.000webhostapp.com/api/asuransi/  
+Description    : API untuk mengambil semua data asuransi  
 
 Request Form Data: 
 | Key  | Description|
@@ -359,9 +359,9 @@ JSON Parameters:
 }
 ```
 
-HTTP Method	: POST
-URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan 
-Description	: API yang digunakan untuk melakukan post data asuransi
+HTTP Method    : POST  
+URL            : https://asuransi-ku05.000webhostapp.com/api/asuransi/?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan  
+Description    : API yang digunakan untuk melakukan post data asuransi  
 
 Request Form Data:
 | Key             | Description                                                 |
@@ -406,9 +406,9 @@ JSON Parameters:
 }
 ```
 
-HTTP Method	: PUT
-URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/3?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan 
-Description	: API digunakan untuk mengubah salah satu data pada data asuransi berdasarkan id dengan menggunakan semua key
+HTTP Method    : PUT  
+URL            : https://asuransi-ku05.000webhostapp.com/api/asuransi/3?nama=&alamat=&invoice=&no_telp=&no_resi=&harga=&detail_produk=&kurir=&metode_bayar=&tanggal_pesan=&tanggal_bayar=&status_barang=&biaya_asuransi=&jenis_pengaduan   
+Description    : API digunakan untuk mengubah salah satu data pada data asuransi berdasarkan id dengan menggunakan semua key  
 
 Request Form Data:
 | Key            | Description                                                 |
@@ -453,9 +453,9 @@ JSON Parameters:
 }
 ```
 
-HTTP Method	: PATCH
-URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/{id}?nama=&no_resi=&harga=&detail_produk=&biaya_asuransi=&jenis_pengaduan= 
-Description	: API digunakan untuk mengubah secara spesifik salah satu data pada data asuransi berdasarkan id hanya menggunakan beberapa key 
+HTTP Method    : PATCH  
+URL            : https://asuransi-ku05.000webhostapp.com/api/asuransi/{id}?nama=&no_resi=&harga=&detail_produk=&biaya_asuransi=&jenis_pengaduan=  
+Description    : API digunakan untuk mengubah secara spesifik salah satu data pada data asuransi berdasarkan id hanya menggunakan beberapa key  
 
 Request Form Data:
 | Key             | Description                                                 |
@@ -492,9 +492,9 @@ JSON Parameters:
 }
 ```
 
-HTTP Method	: DELETE
-URL		: https://asuransi-ku05.000webhostapp.com/api/asuransi/{id} 
-Description	: API digunakan untuk menghapus data berdasarkan id dari data asuransi
+HTTP Method    : DELETE  
+URL            : https://asuransi-ku05.000webhostapp.com/api/asuransi/{id}  
+Description    : API digunakan untuk menghapus data berdasarkan id dari data asuransi  
 
 Request Form Data:
 | Key  | Description|
