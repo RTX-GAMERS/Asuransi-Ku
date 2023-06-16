@@ -1,4 +1,4 @@
-Kelompok 8 (EAI SI-44-05)
+Kelompok 8 (EAI SI-44-05)  
 Anggota Kelompok:
 1.	Michael Crhistensen Bonar Kasparov	(1202194130) - Project Manager
 2.	Julio Thirty Nasrullah Akbar 		(1202202310) - Database Administrator
