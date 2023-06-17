@@ -2,9 +2,9 @@ Kelompok 8 (EAI SI-44-05)
 Anggota Kelompok:
 1.	Michael Crhistensen Bonar Kasparov	(1202194130) - Project Manager
 2.	Julio Thirty Nasrullah Akbar 		(1202202310) - Database Administrator
-3.	Muhammad Naufal 			(1202200367) - Business System Analyst
-4.	Muhammad Luthfi 			(1202184331) - Back-End Developer
-5.	Alshifa Firas Al-Ghaffar Nugraha 	(1202194273) - Front-End Developer
+3.	Muhammad Naufal 			        (1202200367) - Business System Analyst
+4.	Muhammad Luthfi Alshifa 			(1202184331) - Back-End Developer
+5.	Firas Al-Ghaffar Nugraha 	        (1202194273) - Front-End Developer
 
 Sentiment analysis
 
